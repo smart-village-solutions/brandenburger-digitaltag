@@ -3,6 +3,7 @@ description: "Digitale Vernetzung für Kommunen, Behörden und zivilgesellschaft
 author: "Forum Digitales Brandenburg"
 baseurl: "" # Kein Unterverzeichnis
 url: "https://digitaltag-brandenburg.de"
+theme: null
 
 permalink: pretty
 
