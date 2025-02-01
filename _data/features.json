@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Stadt Königs Wusterhausen",
+    "description": "https://www.koenigs-wusterhausen.de",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "DigitalAgentur Brandenburg",
+    "description": "https://www.digital-agentur.de",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Wirtschchaftsförderung Land Brandenburg",
+    "description": "https://www.wfbb.de",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "1000 ELEPHANTS",
+    "description": "https://www.1000elephants.de",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Smart Village Solutions SVS GmbH",
+    "description": "https://smart-village.solutions",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "TUIV-AG Brandenburg",
+    "description": "https://www.tuivnet.de",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    },
+  },
+  {
+    "title": "InNoWest",
+    "description": "https://innowest-brandenburg.de",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "neuland21",
+    "description": "https://www.neuland21.de",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Sillicone Souncoussi",
+    "description": "https://www.silicon-sanssouci.org",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

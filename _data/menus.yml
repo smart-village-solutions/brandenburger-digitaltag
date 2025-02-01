@@ -1,0 +1,15 @@
+main:
+  - name: "Startseite"
+    url: "/"
+    weight: 2
+  - name: "Impressum"
+    url: "/impressum/"
+    weight: 3
+
+footer:
+  - name: "Startseite"
+    url: "/"
+    weight: 2
+  - name: "Impressum"
+    url: "/impressum/"
+    weight: 3
