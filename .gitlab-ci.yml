@@ -1,0 +1,43 @@
+variables:
+  DOCKER_HOST: tcp://docker:2375/
+  PROJECT: jekyll-project
+
+stages:
+  - build
+  - predeploy
+  - deploy
+
+services:
+  - docker:19.03.0-dind
+
+before_script:
+  - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+
+build-app:
+  stage: build
+  variables:
+    IMAGE: "${CI_REGISTRY_IMAGE}/${PROJECT}"
+  script:
+    - docker build --tag $IMAGE:$CI_COMMIT_SHA --tag $IMAGE:latest -f Dockerfile .
+    - docker push $IMAGE:$CI_COMMIT_SHA
+    - docker push $IMAGE:latest
+
+app-conf:
+  stage: predeploy
+  image: docker/compose:1.25.0
+  cache:
+    key: "${CI_PIPELINE_ID}-${PROJECT}"
+    paths: [jekyll-stack.yml]
+  script:
+    - docker-compose -f docker-compose.yml -f stack.yml config > jekyll-stack.yml
+
+deploy:
+  stage: deploy
+  image: registry.internal.planetary-networks.de/quantum-public/cli:2
+  cache:
+    key: "${CI_PIPELINE_ID}-${PROJECT}"
+    paths: [jekyll-stack.yml]
+  script:
+    - quantum-cli stack update --create --stack $PROJECT --wait
+  only:
+    - main
