@@ -79,5 +79,23 @@
       "width": 80,
       "height": 80
     }
+  },
+  {
+    "title": "Starke Orte Netzwerk",
+    "description": "<a href='https://starke-orte.land/'>starke-orte.land/</a>",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "AG nachhaltige Digitalisierung",
+    "description": "<a href='https://plattform-bb.de/nachhaltige-digitalisierung/'>plattform-bb.de</a>",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
   }
 ]
