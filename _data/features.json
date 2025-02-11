@@ -1,7 +1,7 @@
 [
   {
     "title": "Stadt Königs Wusterhausen",
-    "description": "https://www.koenigs-wusterhausen.de",
+    "description": "<a href='https://www.koenigs-wusterhausen.de'>www.koenigs-wusterhausen.de</a>",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -10,7 +10,7 @@
   },
   {
     "title": "DigitalAgentur Brandenburg",
-    "description": "https://www.digital-agentur.de",
+    "description": "<a href='https://www.digital-agentur.de'>www.digital-agentur.de</a>",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -19,7 +19,7 @@
   },
   {
     "title": "Wirtschchaftsförderung Land Brandenburg",
-    "description": "https://www.wfbb.de",
+    "description": "<a href='https://www.wfbb.de'>www.wfbb.de</a>",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
@@ -28,7 +28,7 @@
   },
   {
     "title": "1000 ELEPHANTS",
-    "description": "https://www.1000elephants.de",
+    "description": "<a href='https://www.1000elephants.de'>www.1000elephants.de</a>",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -37,7 +37,7 @@
   },
   {
     "title": "Smart Village Solutions SVS GmbH",
-    "description": "https://smart-village.solutions",
+    "description": "<a href='https://smart-village.solutions'>smart-village.solutions</a>",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -46,7 +46,7 @@
   },
   {
     "title": "TUIV-AG Brandenburg",
-    "description": "https://www.tuivnet.de",
+    "description": "<a href='https://www.tuivnet.de'>www.tuivnet.de</a>",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
@@ -55,7 +55,7 @@
   },
   {
     "title": "InNoWest",
-    "description": "https://innowest-brandenburg.de",
+    "description": "<a href='https://innowest-brandenburg.de'>innowest-brandenburg.de</a>",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -64,7 +64,7 @@
   },
   {
     "title": "neuland21",
-    "description": "https://www.neuland21.de",
+    "description": "<a href='https://www.neuland21.de'>www.neuland21.de</a>",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -73,7 +73,7 @@
   },
   {
     "title": "Sillicone Souncoussi",
-    "description": "https://www.silicon-sanssouci.org",
+    "description": "<a href='https://www.silicon-sanssouci.org'>www.silicon-sanssouci.org</a>",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
