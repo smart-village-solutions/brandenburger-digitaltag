@@ -1,6 +1,5 @@
 variables:
-  DOCKER_HOST: tcp://docker:2375/
-  PROJECT: jekyll-project
+  DOCKER_HOST: "tcp://localhost:2375"
 
 stages:
   - build
@@ -8,36 +7,25 @@ stages:
   - deploy
 
 services:
-  - docker:19.03.0-dind
+  - name: docker:dind
+    command: ["--tls=false"]
+    privileged: true
+    volumes:
+      - "/certs/client"
+      - "/var/run/docker.sock:/var/run/docker.sock"
 
 before_script:
+  - export DOCKER_TLS_CERTDIR=""
   - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
 
 build-app:
   stage: build
-  variables:
-    IMAGE: "${CI_REGISTRY_IMAGE}/${PROJECT}"
   script:
-    - docker build --tag $IMAGE:$CI_COMMIT_SHA --tag $IMAGE:latest -f Dockerfile .
-    - docker push $IMAGE:$CI_COMMIT_SHA
-    - docker push $IMAGE:latest
-
-app-conf:
-  stage: predeploy
-  image: docker/compose:1.25.0
-  cache:
-    key: "${CI_PIPELINE_ID}-${PROJECT}"
-    paths: [jekyll-stack.yml]
-  script:
-    - docker-compose -f docker-compose.yml -f stack.yml config > jekyll-stack.yml
+    - docker build -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
 
 deploy:
   stage: deploy
-  image: registry.internal.planetary-networks.de/quantum-public/cli:2
-  cache:
-    key: "${CI_PIPELINE_ID}-${PROJECT}"
-    paths: [jekyll-stack.yml]
   script:
-    - quantum-cli stack update --create --stack $PROJECT --wait
-  only:
-    - main
+    - echo "Deploying to Swarm"
+    - ssh user@swarm-manager "docker service update --image $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME jekyll_site || docker service create --name jekyll_site -p 4000:4000 $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME"
