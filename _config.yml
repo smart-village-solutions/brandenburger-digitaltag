@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://brandenburger-digitaltag.de"
 theme: null
 
-permalink: pretty
+permalink: /:title/
 
 logo:
   mobile: "images/logo/Brandenburger-Digitaltag-Logo.png"
@@ -40,6 +40,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
