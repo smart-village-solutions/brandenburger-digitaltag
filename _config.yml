@@ -1,7 +1,7 @@
 title: "Brandenburger Digitaltag 2025"
 description: "Digitale Vernetzung für Kommunen, Behörden und zivilgesellschaftliche Initiativen in Brandenburg"
 author: "Forum Digitales Brandenburg"
-baseurl: "https://brandenburger-digitaltag.de" # Kein Unterverzeichnis
+baseurl: ""
 url: "https://brandenburger-digitaltag.de"
 theme: null
 
