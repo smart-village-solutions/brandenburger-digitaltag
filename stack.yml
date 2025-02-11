@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  jekyll_app:
+    deploy:
+      labels:
+        traefik.enable: "true"
+        traefik.docker.network: public
+        traefik.port: 4000
+        traefik.frontend.rule: Host:jekyll.example.com
+        traefik.frontend.passHostHeader: "true"
+        traefik.frontend.redirect.entryPoint: https
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
