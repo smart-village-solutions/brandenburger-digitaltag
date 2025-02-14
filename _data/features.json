@@ -3,9 +3,8 @@
     "title": "Stadt Königs Wusterhausen",
     "description": "<a href='https://www.koenigs-wusterhausen.de'>www.koenigs-wusterhausen.de</a>",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/ag/Koenigs-Wusterhausen.jpg",
+      "width": 80
     }
   },
   {
@@ -57,9 +56,8 @@
     "title": "InNoWest",
     "description": "<a href='https://innowest-brandenburg.de'>innowest-brandenburg.de</a>",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/ag/InnoWest.svg",
+      "width": 80
     }
   },
   {
