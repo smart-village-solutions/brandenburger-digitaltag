@@ -11,7 +11,7 @@
     "title": "DigitalAgentur Brandenburg",
     "description": "<a href='https://www.digital-agentur.de'>www.digital-agentur.de</a>",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/ag/DABB-Logo.png",
       "width": 80,
       "height": 80
     }
@@ -49,7 +49,7 @@
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
       "height": 80
-    },
+    }
   },
   {
     "title": "InNoWest",
