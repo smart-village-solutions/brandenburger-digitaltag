@@ -20,7 +20,7 @@
     "title": "Wirtschaftsförderung Land Brandenburg",
     "description": "<a href='https://www.wfbb.de'>www.wfbb.de</a>",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/ag/WFBB.png",
       "width": 80,
       "height": 80
     }
@@ -29,7 +29,7 @@
     "title": "1000 ELEPHANTS",
     "description": "<a href='https://www.1000elephants.de'>www.1000elephants.de</a>",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/ag/1000-ele.png",
       "width": 80,
       "height": 80
     }
@@ -46,7 +46,7 @@
     "title": "TUIV-AG Brandenburg",
     "description": "<a href='https://www.tuivnet.de'>www.tuivnet.de</a>",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/ag/tuiv.png",
       "width": 80,
       "height": 80
     }
@@ -63,7 +63,7 @@
     "title": "neuland21",
     "description": "<a href='https://www.neuland21.de'>www.neuland21.de</a>",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/ag/n21.png",
       "width": 80,
       "height": 80
     }
@@ -72,7 +72,7 @@
     "title": "Silicon Sanssouci",
     "description": "<a href='https://www.silicon-sanssouci.org'>www.silicon-sanssouci.org</a>",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/ag/silicon-sanssouci.png",
       "width": 80,
       "height": 80
     }
@@ -81,7 +81,7 @@
     "title": "Starke Orte Netzwerk",
     "description": "<a href='https://starke-orte.land/'>starke-orte.land/</a>",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/ag/starke-orte.png",
       "width": 80,
       "height": 80
     }
@@ -90,7 +90,7 @@
     "title": "AG nachhaltige Digitalisierung",
     "description": "<a href='https://plattform-bb.de/nachhaltige-digitalisierung/'>plattform-bb.de</a>",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
       "height": 80
     }
